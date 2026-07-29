@@ -11,7 +11,7 @@ incrementBtn.addEventListener('click', () => {
 });
 
 decrementBtn.addEventListener('click', () => {
-    if (score > 0) score--;
+    if (score > 0) score--; //so the the score don't go to less than zero
     display.textContent = `Score: ${score}`;
 });
 
